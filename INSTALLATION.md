@@ -26,6 +26,6 @@ You can't have a Django class without Django. Once you have pip installed, simpl
 
 ## Github
 
-Github is the primary service most open source programmers use to store and share their code. We'll also be using it to turn in assignments. You'll need to both install the Github client on your local machine and sign up for an account.
+Github is the primary service most open source programmers use to store and share their code. We'll also be using it to turn in assignments. You'll need to both install the Github client on your local machine and sign up for a free account.
 
 Instructions on getting started can be found here: https://help.github.com/articles/set-up-git
