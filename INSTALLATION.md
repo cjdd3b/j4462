@@ -22,7 +22,7 @@ To make our lives easier, Python comes with two package management tools, which 
 
 ## Django
 
-You can't have a Django class without Django. Once you have pip installed, simply type ```sudo pip install django``` and you should be set to go.
+You can't have a Django class without Django. Once you have pip installed, simply type ```sudo pip install django``` (OSX) or ```pip install django``` (Windows) and you should be set to go.
 
 ## Github
 
