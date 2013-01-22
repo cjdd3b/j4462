@@ -20,6 +20,10 @@ To make our lives easier, Python comes with two package management tools, which 
 
 **On OSX**: easy_install should already be included. To install pip, simply type ```sudo easy_install pip``` and enter your administrative password.
 
+## Django
+
+You can't have a Django class without Django. Once you have pip installed, simply type ```sudo pip install django``` and you should be set to go.
+
 ## Github
 
 Github is the primary service most open source programmers use to store and share their code. We'll also be using it to turn in assignments. You'll need to both install the Github client on your local machine and sign up for an account.
