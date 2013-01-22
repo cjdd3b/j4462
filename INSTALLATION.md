@@ -16,6 +16,12 @@ This is the primary database manager we'll be using. Everyone should already hav
 
 To make our lives easier, Python comes with two package management tools, which allow us to install new packages that extend Python's core functionality. You'll probably need some help getting these up and running, but here are some basic instructions:
 
-On Windows: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows
+**On Windows**: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows
 
-On OSX: easy_install should already be included. To install pip, simply type ```sudo easy_install pip``` and enter your administrative password.
+**On OSX**: easy_install should already be included. To install pip, simply type ```sudo easy_install pip``` and enter your administrative password.
+
+## Github
+
+Github is the primary service most open source programmers use to store and share their code. We'll also be using it to turn in assignments. You'll need to both install the Github client on your local machine and sign up for an account.
+
+Instructions on getting started can be found here: https://help.github.com/articles/set-up-git
