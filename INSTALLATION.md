@@ -17,4 +17,5 @@ This is the primary database manager we'll be using. Everyone should already hav
 To make our lives easier, Python comes with two package management tools, which allow us to install new packages that extend Python's core functionality. You'll probably need some help getting these up and running, but here are some basic instructions:
 
 On Windows: http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows
+
 On OSX: easy_install should already be included. To install pip, simply type ```sudo easy_install pip``` and enter your administrative password.
