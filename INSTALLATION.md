@@ -1,0 +1,1 @@
+# Django installation requirements
