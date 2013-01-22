@@ -6,7 +6,7 @@ Below is a list of the key software that will be required for Journalism 4462/74
 
 The main programming language we'll be working in is Python. If you're using a Mac, you should already have it installed. If you're using a PC, you can install it using [this self-installer.](http://www.python.org/ftp/python/2.7.3/python-2.7.3.msi)
 
-** Be sure you install Python 2.6 or 2.7, NOT Python 3.0 **
+**Be sure you install Python 2.6 or 2.7, NOT Python 3.0**
 
 ## SQLite
 
