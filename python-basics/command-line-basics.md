@@ -113,10 +113,6 @@ The principles of working from the command line are the same in Windows as they 
         <td>dir or dir -p</td>
     </tr>
     <tr>
-        <td>pwd</td>
-        <td></td>
-    </tr>
-    <tr>
         <td>cd</td>
         <td>cd followed by the directory name (ex. cd Desktop)</td>
     </tr>
