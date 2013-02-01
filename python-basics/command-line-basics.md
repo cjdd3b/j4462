@@ -21,6 +21,8 @@ On Windows, navigate to the **Start Menu** and find the box called **Run**. Clic
 
 Most of what you'll be doing from the command line at this point will be navigating through directories and running Python files. These actions require only a few basic commands, which I'll cover here. Windows and OSX have slightly different syntaxes for their terminal commands, so we'll go over OSX first.
 
+### Listing and changing directories
+
 Once your terminal window is open, type ```pwd``` and you should see a directory path returned. Something like ```/Users/whatever_your_username_is```. PWD stands for "present working directory." It's basically your current location relative to the root of your filesystem. It's easy to lose track of which folder you're in when you're working from the command line, so it can be a helpful tool for finding your way. In this case, you're in the default directory for your username on the computer, also known as your **home directory**.
 
 In order to see all the files and folders in your home directory, type the ```ls``` command. Once you do that, you should see a list of files and folders appear, such as Downloads, Documents, Desktop, etc. These should look a little familiar. The command line is just another way of navigating the directory structure you're probably used to seeing when you're clicking around your Mac.
@@ -28,6 +30,8 @@ In order to see all the files and folders in your home directory, type the ```ls
 To take that point one step further, let's go into the Desktop folder. In order to change directories from the command line, use the ```cd``` command, along with the directory you want to change to. In this case ```cd Desktop``` will take you into the desktop. Type ```ls``` again to list the contents of the folder, and you should find that they mirror what you see when you look at your desktop.
 
 Now let's move back to our home folder. Again we'll use the ```cd```  command, but with a little twist. If you type ```cd ..``` and hit enter, you'll notice that you move back to the home directory that you were just in. When you're working from the command line, it helps to think of your directory structure as a tree. Navigating through the directories is like going higher and lower on various branches. The convention for moving backwards is the ```..``` notation.
+
+### Creating and deleting files
 
 You might also find it useful sometimes to create files and directories from the command line. Let's create a folder called "apps" under our home directory that we can use to store code from this class. The command for doing that is simply ```mkdir apps``` with mkdir being short for "make directory." If you type ```ls``` again, you should see your new apps directory listed along with the files and folders from before.
 
