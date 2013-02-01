@@ -8,7 +8,7 @@ Most Python code is run directly from the command line, which explains why it is
 
 Python also comes with a very neat feature called an **interactive interpreter**, which essentially allows you to execute Python code one line at a time, sort of like working from the command line. We'll be using this a lot in the beginning to demonstrate concepts, but in the real world it's often useful for testing and debugging. To open the interpreter, simply type ```python``` from your command line, and you should see a screen that looks like this:
 
-IMAGE
+![Python interactive interpreter](https://f.cloud.github.com/assets/947791/120133/9dc93b9e-6cc8-11e2-8232-4549e69c291b.png)
 
 We'll get into more detail about that later.
 
@@ -93,6 +93,6 @@ If you, think of a Python script as a series of commands that execute one after 
 
 For our purposes, there are two control structures you will use most often: **if/else statements** and **for loops**.
 
-## If/else statements
+### If/else statements
 
 If/else statements are pretty much exactly what they sounds like. *If* a certain condition is met, your program should do one thing; or *else* it should do something else.
