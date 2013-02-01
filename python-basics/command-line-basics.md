@@ -3,7 +3,7 @@
 Working with Python, Django and pretty much any other programming language means becoming comfortable with your computer's command line environment. If you haven't seen it before,
 it looks something like this:
 
-IMAGE
+![OSX terminal window](https://f.cloud.github.com/assets/947791/119759/801b7d6a-6cb3-11e2-8eab-d3c9f2dcac15.png)
 
 In basic terms, the command line allows you to communicate with your computer at a lower level that is more explicit than the user-friendly graphical environments that you typically
 use. This has both advantages and disadvantages. The good thing about learning a little about the command line is that is enables you to configure your computer in new ways, and to
@@ -41,7 +41,51 @@ The final task you might want to perform from the command line in this class is 
 
 Really, that's most of what you should need to navigate the command line for this class. As a quick review:
 
-TABLE GOES HERE
+<table>
+    <tr>
+        <th>Command</th>
+        <th>Example</th>
+        <th>What it does</th>
+        <th>Notes</th>
+    </tr>
+    <tr>
+        <td>pwd</td>
+        <td>```pwd```</td>
+        <td>Shows your present working directory</td>
+        <td>Useful for keeping track of where you are</td>
+    </tr>
+    <tr>
+        <td>ls</td>
+        <td>```ls```</td>
+        <td>Shows the contents of the current directory</td>
+        <td>Can also use ```ls -a``` or ```ls -l``` to show more information about files</td>
+    </tr>
+    <tr>
+        <td>cd</td>
+        <td>```cd Desktop```</td>
+        <td>Changes directories</td>
+        <td>Use ```cd ..``` to move backwards</td>
+    </tr>
+    <tr>
+        <td>mkdir</td>
+        <td>```mkdir new-directory```</td>
+        <td>Creates a new directory</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>touch</td>
+        <td>```touch test.py```</td>
+        <td>Creates a new file</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>rm</td>
+        <td>```rm test.py```</td>
+        <td>Deletes a file</td>
+        <td>Use with **extreme caution**. Once a file is deleted this way, you can't get it back.</td>
+    </tr>
+</table>
+
 
 ## Basic commands (Windows)
 
