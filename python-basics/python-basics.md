@@ -12,7 +12,7 @@ IMAGE
 
 We'll get into more detail about that later.
 
-## Programming basics
+## Variables and data types
 
 No matter whether you're working in Python or another language, there are a handful of basic concepts you need to understand if you're going to be writing code. We'll walk through those here.
 
@@ -73,3 +73,26 @@ list of lists = [[1, 2, 3], [4, 5, 6], ['a', 'b', 'c']]
 tuple_of_numbers = (1, 2, 3, 4, 5)
 tuple_of_strings = ('a', 'b', 'c', 'd')
 ```
+
+**Dictionaries**: Dictionaries are probably the most difficult data type to explain, but also among the most useful. In technical terms, they are storehouses of key/value pairs. You can think of them like a phonebook. An example will make this a little more clear, but know for now that **they are declared with curly braces**.
+
+```
+my_phonebook = {'Chase Davis': '713-555-5555', 'Mark Horvit': '573-555-5555'}
+```
+In this example, the keys are the names "Chase Davis" and "Mark Horvit", which are declared as strings (Python dictionary keys usually are). The values are the phone numbers, which are also strings, although dictionary values in practice can be any data type. If I wanted to get Chase Davis' phone number from the dictionary, here's how I'd do it:
+
+```
+my_phonebook['Chase Davis']
+```
+
+Which would return the string '713-555-5555'. There's a lot more to dictionaries, but that's all you need to know for now.
+
+## Control structures
+
+If you, think of a Python script as a series of commands that execute one after another you might imagine it would be helpful to be able to control the order and conditions under which those commands will run. That's where control structures come in -- simple logical operators that allow you to execute parts of your code when the right conditions call for it.
+
+For our purposes, there are two control structures you will use most often: **if/else statements** and **for loops**.
+
+## If/else statements
+
+If/else statements are pretty much exactly what they sounds like. *If* a certain condition is met, your program should do one thing; or *else* it should do something else.
