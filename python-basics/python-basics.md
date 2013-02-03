@@ -67,6 +67,22 @@ list_of_both = [1, 'a', 2, 'b']
 list of lists = [[1, 2, 3], [4, 5, 6], ['a', 'b', 'c']]
 ```
 
+Lists also have another neat feature: The ability to retrieve individual items, which is known as indexing. In order to get a specific item out of a list, you first need to know its position in that list. All lists in Python are **zero-indexed**, which means the first item in them sits at position 0. For example, in the list ```['a', 'b', 'c', 'd']```, the letter "a" is at position 0, "b" is at position 1, etc.
+
+The syntax for extracting a single item from the list using those indexes also uses brackets and looks like this:
+
+```
+list_of_strings = ['a', 'b', 'c', 'd']
+the_letter_a = list_of_strings[0]
+```
+
+You can also extract a range of values by specifiying the first and last positions you want to retrieve with a colon in between them, like this:
+
+```
+list_of_strings = ['a', 'b', 'c', 'd']
+the_letters_a_b_c = list_of_strings[0:2]
+```
+
 **Tuples**: Tuples are a special type of list that cannot be changed once it is created. That's not especially important right now. All you need to know is that **they are declared with parentheses ()**. For now, just think of them as lists.
 
 ```
@@ -95,4 +111,4 @@ For our purposes, there are two control structures you will use most often: **if
 
 ### If/else statements
 
-If/else statements are pretty much exactly what they sounds like. *If* a certain condition is met, your program should do one thing; or *else* it should do something else.
+If/else statements are pretty much exactly what they sounds like. *If* a certain condition is met, your program should do one thing; or *else* it should do something else. We'll cover that in the next lesson.
