@@ -1,6 +1,6 @@
 # Bonus material
 
-For folks who are feeling adventurous, here is some bonus material that can help supplement the work we're doing in class.
+For folks who are feeling adventurous, here is some bonus material that can help supplement the work we're doing in class. I'll continue to add to this based on interest as the semester goes on.
 
 ## Python tutorials
 
