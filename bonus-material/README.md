@@ -15,8 +15,6 @@ It's important to note that this class only scratches the surface of what's poss
 
 ## Django tutorials
 
-Just like Python, there are 
-
 - [The djangoproject.com tutorial](https://docs.djangoproject.com/en/1.4/intro/tutorial01/): The canonical tutorial for people just getting started with Django.
 - [IRE's First Newsapp project](https://github.com/ireapps/first-news-app): The app we use most years to teach Django at NICAR conferences.
 - [Andy Boyle's Django tutorials](http://www.andymboyle.com/django-tutorials/): Django tutorials by Andy Boyle from the Chicago Tribune.
