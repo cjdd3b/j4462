@@ -107,8 +107,44 @@ Which would return the string '713-555-5555'. There's a lot more to dictionaries
 
 If you, think of a Python script as a series of commands that execute one after another you might imagine it would be helpful to be able to control the order and conditions under which those commands will run. That's where control structures come in -- simple logical operators that allow you to execute parts of your code when the right conditions call for it.
 
-For our purposes, there are two control structures you will use most often: **if/else statements** and **for loops**.
+For our purposes, there are two control structures you will use most often: **if/else statements** and **loops**.
 
 ### If/else statements
 
-If/else statements are pretty much exactly what they sounds like. *If* a certain condition is met, your program should do one thing; or *else* it should do something else. We'll cover that in the next lesson.
+If/else statements are pretty much exactly what they sounds like. *If* a certain condition is met, your program should do one thing; or *else* it should do something else.
+
+The syntax is pretty intuitive -- except for one **extremely important thing**: In Python, whitespace matters. A lot. It's easiest to demonstrate this with an example: 
+
+```
+number = 10
+if number > 5:
+    print "Wow, that's a big number!"
+```
+
+There's a lot to unpack here, but first take note of the indentation. It helps sometimes to think of your program as taking place on different levels. In this case, the main level of our program (the one that isn't indented) has us declaring the variable ```number = 10``` and setting up our if condition (```if number > 5```). The second level of our program executes only on the condition that our if statement is true. Therefore, because it depends on that if statement, it is indented **four spaces** underneath that statement.
+
+If we wanted to continue our program, we could do something like this: 
+
+```
+number = 10
+if number > 5:
+    print "Wow, that's a big number!"
+
+print "I execute no matter what your number is!"
+```
+
+The last statement doesn't depend on the if statement, so it's back on the main level again.
+
+Notice that I said indents must be **four spaces**. Four spaces means four spaces -- **NOT A TAB. TABS AND SPACES ARE DIFFERENT. YOU MUST PRESS THE SPACE BAR FOUR TIMES WHENVER YOU INDENT PYTHON CODE.** There are some text editors that automatically convert tabs to spaces, and once you feel more comfortable, you might want to use one. But for now, get in the habit of making all your indents **FOUR SPACES**.
+
+Now with that being said, let's unpack the rest of our if statement:
+
+```
+number = 10
+if number > 5:
+    print "Wow, that's a big number!"
+```
+
+Our little program in this case starts with a variable, which we've called ```number```, being set to 10. That's pretty simple, and a concept you should be familiar with by this point. The next line, ```if number > 5:``` declares our if statement. In this case, we want something to happen if the ```number``` variable is greater than 5.
+
+Most of the if statements we build are going to rely on equality operators like the kind we learned in elementary school: greater than (>), less than (<), greater than or equal to (>=), less than or equal to (<=) and plain old "equals". The equals operator is a little tricky, in that **it is declared with two equals signs (==), not one (=). Why is that? Because you'll remember from above that a single equals sign is the notation we use to assign a value to a variable! **Single equals signs are for assignment (```number = 5```); double equals signs are for equality (```if number == 5:```)**. File that one away somewhere. It's important.
