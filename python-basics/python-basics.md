@@ -121,7 +121,9 @@ if number > 5:
     print "Wow, that's a big number!"
 ```
 
-There's a lot to unpack here, but first take note of the indentation. It helps sometimes to think of your program as taking place on different levels. In this case, the main level of our program (the one that isn't indented) has us declaring the variable ```number = 10``` and setting up our if condition (```if number > 5```). The second level of our program executes only on the condition that our if statement is true. Therefore, because it depends on that if statement, it is indented **four spaces** underneath that statement.
+There's a lot to unpack here, but first take note of the indentation. It helps sometimes to think of your program as taking place on different levels. In this case, the main level of our program (the one that isn't indented) has us declaring the variable ```number = 10``` and setting up our if condition (```if number > 5:```). The second level of our program executes only on the condition that our if statement is true. Therefore, because it depends on that if statement, it is indented **four spaces** underneath that statement.
+
+If you look closely, there's a small detail that can help you remember when a program moves from one level to another: namely, the presence of a colon. When we declare an if statement, we **always end that line with a colon**. The colon is our way of telling Python that it should start another level in the program, and everything on that level must be indented accordingly.
 
 If we wanted to continue our program, we could do something like this: 
 
@@ -147,4 +149,20 @@ if number > 5:
 
 Our little program in this case starts with a variable, which we've called ```number```, being set to 10. That's pretty simple, and a concept you should be familiar with by this point. The next line, ```if number > 5:``` declares our if statement. In this case, we want something to happen if the ```number``` variable is greater than 5.
 
-Most of the if statements we build are going to rely on equality operators like the kind we learned in elementary school: greater than (>), less than (<), greater than or equal to (>=), less than or equal to (<=) and plain old "equals". The equals operator is a little tricky, in that **it is declared with two equals signs (==), not one (=). Why is that? Because you'll remember from above that a single equals sign is the notation we use to assign a value to a variable! **Single equals signs are for assignment (```number = 5```); double equals signs are for equality (```if number == 5:```)**. File that one away somewhere. It's important.
+Most of the if statements we build are going to rely on equality operators like the kind we learned in elementary school: greater than (>), less than (<), greater than or equal to (>=), less than or equal to (<=) and plain old "equals". The equals operator is a little tricky, in that **it is declared with two equals signs (==), not one (=).** Why is that? Because you'll remember from above that a single equals sign is the notation we use to assign a value to a variable! **Single equals signs are for assignment (```number = 5```); double equals signs are for equality (```if number == 5:```)**. File that one away somewhere. It's important.
+
+Now let's talk about the next part of the if statement -- the else clause. You'll notice from the program above that the else clause isn't required. You don't *need* to have an else condition for your if statements, but sometimes it helps. Consider this example:
+
+```
+number = 10
+if number > 5:
+    print "Wow, that's a big number!"
+else:
+    print "Gee, that number's kind of small, don't you think?"
+```
+
+In this case, we're telling our program to print one thing if ```number``` is greater than 5, and something else if it's not. Notice that the else statement also ends with a colon, and as such its contents are also indented four spaces.
+
+### For loops
+
+We'll cover these next lesson.
