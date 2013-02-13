@@ -166,3 +166,27 @@ In this case, we're telling our program to print one thing if ```number``` is gr
 ### For loops
 
 Remember earlier we discussed the concept of a list -- the type of variable that can hold multiple items in it all at once. Many times during your programming career, you'll find it helps to run through an entire list of items and do something with all of them, one at a time. That's where for loops come in.
+
+Let's start by having Python say the ABC's:
+
+```
+list_of_letters = ['a', 'b', 'c']
+for letter in list_of_letters:
+    print letter
+```
+
+The output of this statement, as you might guess, would be "a b c". But there are still a few things to unpack here -- some familiar and some not.
+
+First you'll notice from looking at the print statement that our indentation rules still apply. Everything that happens within the for loop must still be indented four spaces from the main level of the program. You'll also see that the line declaring the loop ends in a colon, just like the if/else statement. That's an indication that indentation will be necessary.
+
+Second, turn your attention to the syntax of declaring the loop itself: ```for letter in list_of_letters:```
+
+All of our for loops start, unsurprisingly, with the word ```for``` and follow the pattern ```for **variable_name** in **list**:```. The variable_name can be anything you want -- it's essentially just a new variable you're creating to refer to each item within your list as the for loop iterates over it. You can call this whatever you want. In this case it's ```letter```, but you could just as easily call it ```donkey```, like so:  
+
+```
+list_of_letters = ['a', 'b', 'c']
+for donkey in list_of_letters:
+    print donkey
+```
+
+The next thing you have to specify is the list you want to loop over, in this case ```list_of_letters```. The line ends with a colon, and the next line starts with an indent. And that's the basics of building a loop! 
