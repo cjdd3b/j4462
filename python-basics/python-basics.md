@@ -165,4 +165,4 @@ In this case, we're telling our program to print one thing if ```number``` is gr
 
 ### For loops
 
-We'll cover these next lesson.
+Remember earlier we discussed the concept of a list -- the type of variable that can hold multiple items in it all at once. Many times during your programming career, you'll find it helps to run through an entire list of items and do something with all of them, one at a time. That's where for loops come in.
