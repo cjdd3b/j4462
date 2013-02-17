@@ -181,7 +181,7 @@ First you'll notice from looking at the print statement that our indentation rul
 
 Second, turn your attention to the syntax of declaring the loop itself: ```for letter in list_of_letters:```
 
-All of our for loops start, unsurprisingly, with the word ```for``` and follow the pattern ```for **variable_name** in **list**:```. The variable_name can be anything you want -- it's essentially just a new variable you're creating to refer to each item within your list as the for loop iterates over it. You can call this whatever you want. In this case it's ```letter```, but you could just as easily call it ```donkey```, like so:  
+All of our for loops start, unsurprisingly, with the word ```for``` and follow the pattern ```for variable_name in list:```. The variable_name can be anything you want -- it's essentially just a new variable you're creating to refer to each item within your list as the for loop iterates over it. You can call this whatever you want. In this case it's ```letter```, but you could just as easily call it ```donkey```, like so:  
 
 ```
 list_of_letters = ['a', 'b', 'c']
