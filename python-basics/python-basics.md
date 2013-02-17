@@ -189,4 +189,46 @@ for donkey in list_of_letters:
     print donkey
 ```
 
-The next thing you have to specify is the list you want to loop over, in this case ```list_of_letters```. The line ends with a colon, and the next line starts with an indent. And that's the basics of building a loop! 
+The next thing you have to specify is the list you want to loop over, in this case ```list_of_letters```. The line ends with a colon, and the next line starts with an indent. And that's the basics of building a loop!
+
+## Functions
+
+Often it's helpful to encapsulate a sequence of programming instructions into little tools that can be used over and over again. That's where functions come in.
+
+Think of functions like little black boxes. They take input (known as **arguments**), perform some operations on those arguments, and then return an **output**. In Python, a simple function might take an integer and divide it by two, like this:
+
+```
+def divide_by_two(input_integer):
+    return input_integer / 2
+```
+
+In order to call that function later in the program, I would simply have to invoke its name and feed it an integer -- any integer at all -- like so:
+
+```
+print divide_by_two(10)
+```
+
+In which case it would return the number 5.
+
+The black box analogy is the key thing to understand about functions. Once you write one (assuming you do so correctly), you don't need to know how it works. You can just feed it an input and expect an output in return. This is going to be a major part of Django programming, so try to commit that concept to memory.
+
+As for how functions are declared, you'll notice a couple new details as well as some similarities to loops. First, every function must be declared by the word ```def```, which stands for "define". That is followed by the name of the function (you can call it anything you want, but as always, it should ideally make some kind of logical sense), and then a set of parentheses in which you can define the arguments a function should expect.
+
+In our example above, our ```divide_by_two``` function expects one argument, which we've called ```input_integer``` -- basically the number that we want to divide by two. When we feed it the number 10, like this ```print divide_by_two(10)```, a variable by the name of our argument is created so that we can process it within the function. In that way, the name you give the argument works almost like the variable you create in a for loop: it's a reference to whatever argument you pass in that applies only within the body of the function.
+
+After you finish declaring arguments, you'll see something familiar -- namely a colon, just like the ones in our if statements and for loops. And that means the next line **must be indented four spaces** because any code within the function is nested one level deeper than the base level of the program.
+
+The final thing you'll need to know about function notation in Python is that most functions return some kind of output. Arguments go in, some processing happens, and something comes out. As you probably guessed, it's the ```return``` statement that tells the function to return it output.
+
+It's worth pointing out that functions don't necessarily need arguments, nor do they always need to return a value using the ```return``` command. You could also do something like this:
+
+```
+def say_hello():
+    print "Hello!"
+```
+
+But the idea of arguments and return values are still fundamental in understanding functions, and they will come up more often than not.
+
+## Classes
+
+More on these next lesson!
