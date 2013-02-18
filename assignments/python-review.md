@@ -2,7 +2,7 @@
 
 For our first quiz, we'll be reviewing the basic Python concepts we covered during the first couple weeks of class.
 
-It is due **by the end of the day Friday, Feb. 21** and should be e-mailed to **chase.davis@gmail.com**. For now, you can just submit the results either in a blank text file or in the body of an e-mail.
+It is due **by the start of class next Monday, Feb. 25** and should be e-mailed to **chase.davis@gmail.com**. For now, you can just submit the results either in a blank text file or in the body of an e-mail.
 
 I will be testing the output of each of your submissions by running them through the interactive Python interpreter we've been using for class. So I would suggest you write your code in the interpreter and copy it into the e-mail or text file once you're sure it works.
 
