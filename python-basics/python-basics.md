@@ -229,6 +229,44 @@ def say_hello():
 
 But the idea of arguments and return values are still fundamental in understanding functions, and they will come up more often than not.
 
-## Classes
+## Classes and object-oriented programming
 
-More on these next lesson!
+The next and final concept we'll introduce is the idea of object-oriented programming. OOP, as it's known for short, is a complex subject that can easily take up a semester in an introductory computer science program. We're only going to scratch the surface here, but it should be enough to get you started.
+
+### Python as a toolkit
+
+The first thing you should know is that Python is basically a collection of tools. In fact, Python has tools for pretty much everything you'd ever want to do with a programming language: everything from navigating the web to scraping and analyzing data to performing mathematical operations to building web sites. Some of these are built into a toolbox that comes with the language, known as the **standard library**. Others (Django is an example of this) have been built by members of the developer community and can be downloaded and installed from the web. There are two ways to import these tools into your scripts, which we'll demonstrate here:
+
+To pull in an entire toolkit, use the ```import``` command. In this case, we'll get the ```urllib2``` package, which allows us to visit websites with Python:
+
+```
+import urllib2
+```
+
+You can also import specific tools from a toolkit using similar syntax:
+
+```
+from urllib2 import urlopen
+```
+
+In practice, you'll use both of these methods. It's worth noting that most of the time, any import statements you execute will be **at the top** of your program.
+
+### Objects as tools
+
+It's one thing to pull a hammer from the toolbox, but it's quite another to use it for actually hammering nails.
+
+Pretty much everything you every work with in Python -- external libraries, variables, you name it -- is considered an **object**. Objects, in the OOP world, have a couple of properties: they have characteristics that describe them, known as **attributes*, and actions they can perform, known as **methods**. In our hammer example, our hammer might have an attribute of "color" or "weight" and a method called "pound". Let's see how this applies to one of the first things we learned: Python strings.
+
+Say you've created a string variable ```my_string = 'Hello!'```. Just like the hammer, the string has certain attributes that can describe it and certain methods it can perform. For example, calling ```print string.upper()``` will return ```HELLO!```. That is because all Python strings come with a method called upper(), which returns an all-uppercase representation of that string.
+
+You can see how this might be useful. Tools like this allow us to perform various tasks in Python without having to hard-code the operations ourselves. Lists, for example, can sort themselves with the ```sort()``` method. In general, there are a couple rules you should remember when it comes to invoking these attributes and methods:
+
+1. Python uses what's known as dot notation to call attributes and methods. That means you will insert a period between the object you're working with and whatever method you want it to perform. For example ```my_string.upper()``` says "perform the upper() method on the object my_string". **The dot between the two is very important.**
+
+2. As a general rule, **methods are called with parentheses and attributes aren't**. The ```upper()``` method of ```mystring.upper()``` is a method, so it requires a set of open and closed parentheses -- not unlike a function. Methods are actually close cousins of functions (they can also accept arguments). A string attribute, such as 
+
+Also, one final Pro Tip. Python has a built-in function, known as ```dir()```, which will reveal to you a menu of all the attributes and methods a given object has. Try doing this and you'll see what I mean ```dir(my_string)```.
+
+### Under the hood with classes
+
+Now let's get under the hood a bit and talk about how these objects are created.
