@@ -270,3 +270,35 @@ Also, one final Pro Tip. Python has a built-in function, known as ```dir()```, w
 ### Under the hood with classes
 
 Now let's get under the hood a bit and talk about how these objects are created.
+
+In general, you'll notice some similarities between the way classes and functions are created. Here's an example of a class that might represent a car, like we discussed in class:
+
+```
+class Car:
+    color = ''
+    make = ''
+    model = ''
+
+    def drive(self):
+        print 'Vrooooom!'
+
+    def stop(self):
+        print "Skreeeeeeech!"
+```
+
+A few things you'll notice here. First, classes are declared using the word ```class```. You'll also see that this particular class has three attributes -- color, make and model -- and two methods: drive and stop. Attributes are just represented as variables indented within the class, and methods look very similar to functions, with one slight difference.
+
+The word ```self``` is a Python convention you'll get used to as you work with classes. It is always, without exception, the first argument fed to a method, and it allows the class to access its own attributes and methods. In technical terms, it refers to the current instance of a given class (more on that in a second). For now, just know that you'll be writing ```self``` as the first argument to every method you write.
+
+In OOP terms, classes an the abstract, 10,000-foot-up concept. Where as instances of that class define individual items defined by that class. In the car example, our Car class basically defines the concept of a car. All cars have a color, make and model and can do only two things: drive and stop. An instance of a car might be my Prius, which we would create like this:
+
+```
+chases_prius = Car()
+chases_prius.color = 'Silver'
+chases_prius.make = 'Toyota'
+chases_prius.model = 'Prius III'
+```
+
+The ```chases_prius``` variable in this case is an instance of the Car class we created above (a Prius is a car, after all). It can do all the things that cars can do (drive and stop) and can be described with a color, make and model. But it can also be distinctly different from another instance of the Car class, if for example we created another car, ```horvits_monster_truck = Car()```, which would obviously be described much differently.
+
+For now, the important thing remember is that virtually everything in the Python language is based on a class. Strings, integers, lists, various Django objects -- you name it.
